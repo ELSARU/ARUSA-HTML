@@ -1,0 +1,38 @@
+root {
+    --padding-horrizontal:100px;
+    --primary-color:#4C243B;}
+
+
+
+nav >{
+ margin:0;
+    displey :flex;
+    justify-content: center;
+    background-color: greenyellow;
+    padding-left:100px;
+     padding-left:100px;
+     padding-right:100px;
+     padding-top:10px;
+     padding-bottom:10px;
+}
+nav> h1{
+    color:purple;
+}
+nav>div>a{
+    color:yellow;
+    text-decoration: none;
+    margin-right:9px;
+}
+#homeSection{
+   display:flex;
+    padding-right:var(--padding-horrizontal);
+    padding-left:var(--padding-horrizontal);
+
+}
+
+#homeSection > img {
+    border-radius:100px;
+    justify-content:center;
+    width:500px;
+    object-fit:cover;
+}
